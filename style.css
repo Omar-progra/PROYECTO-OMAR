@@ -1,0 +1,142 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    margin-top: 10px;
+    max-width: 600px; /* Ajusta el valor según sea necesario */
+    
+    
+margin: 10px auto; /* Centra el párrafo */
+}
+
+
+/* Menú de navegación */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+/* Sección principal */
+main {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+main h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Estilo para la imagen con botón de interacción */
+.imagen-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.imagen-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imagen-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.imagen-container button:hover {
+    background-color: #333;
+}
+
+/* Estilos de actividades en actividades.html */
+#lista-actividades {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.actividad {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.actividad h3 {
+    color: #4CAF50;
+}
+
+.actividad p {
+    margin-top: 5px;
+    line-height: 1.6;
+}
+
+/* Botón de regreso */
+footer .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer .button:hover {
+    background-color: #333;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
